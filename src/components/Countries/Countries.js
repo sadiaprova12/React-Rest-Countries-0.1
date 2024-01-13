@@ -17,6 +17,7 @@ function Countries() {
             <div className= 'countries-container'>
             {countries.map(country => console.log(country))}
             {countries.map(country => <Country country={country}
+            key = {country.cca3}
             ></Country>)}
             </div>
         </div>
