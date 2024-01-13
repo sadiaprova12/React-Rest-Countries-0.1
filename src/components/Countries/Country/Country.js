@@ -5,7 +5,8 @@ const Country = (props) => {
         <div>
             <h2>Country Name: {props.name}</h2>
             <p>Polpulation: {props.population}</p>
-            <h3>Area: {props.area}</h3>
+            {/* <h3>Area: {props.area}</h3> */}
+            <p><small>Area: {props.area}</small></p>
         </div>
     );
 };
