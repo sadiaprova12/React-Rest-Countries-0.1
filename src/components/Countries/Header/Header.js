@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
             <h2>Welcome to my React Rest Countries</h2>
-            <nav>
+            <nav className='menu'>
                 <a href="/home">Home</a>
                 <a href="/about">About Us</a>
                 <a href="/contact">Contact Us</a>
