@@ -5,9 +5,9 @@ const Header = () => {
         <div>
             <h2>Welcome to my React Rest Countries</h2>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="/home">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
             </nav>
         </div>
     );
